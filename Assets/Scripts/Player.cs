@@ -1,9 +1,15 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public event EventHandler<OnSelectedCounterChangedEventArgs> OnSelectedCounterChanged;
+    public class OnSelectedCounterChangedEventArgs : EventArgs
+    {
+        public ClearCounter selectedCounter;
+    }
 
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private GameInput gameInput;
@@ -51,20 +57,20 @@ public class Player : MonoBehaviour
                 //has ClearCounter component
                 if (clearCounter != selectedCounter)
                 {
-                    selectedCounter = clearCounter;
+                    SetSelectedCounter(clearCounter);
                 }               
                 
             }    
             else
             {
-                selectedCounter = null;
+                SetSelectedCounter(null);
             }        
         }
         else
         {
-            selectedCounter = null;
-        }    
-        Debug.Log(selectedCounter); 
+            SetSelectedCounter(null);
+        }  
+         
     }
 
     private void HandleMovement()
@@ -108,5 +114,14 @@ public class Player : MonoBehaviour
         isWalking = moveDir != Vector3.zero;
         float rotateSpeed = 9.8f;
         transform.forward = Vector3.Slerp(transform.forward, moveDir, Time.deltaTime * rotateSpeed);
+    }
+
+    private void SetSelectedCounter(ClearCounter selectedCounter)
+    {
+        this.selectedCounter = selectedCounter;
+
+        OnSelectedCounterChanged?.Invoke(this, new OnSelectedCounterChangedEventArgs {            
+            selectedCounter = selectedCounter
+        });
     }
 }
