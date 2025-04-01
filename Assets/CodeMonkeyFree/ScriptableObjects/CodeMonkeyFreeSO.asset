@@ -14,34 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.00
   subtype: kitchenchaos
-  lastShownTimestamp: 1743334317
+  lastShownTimestamp: 1743504820
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1743334317
+  checkedLastUpdateTimestamp: 1743504820
   lastQOTDResponse:
-    questionId: 165
-    questionText: 'Does this variable get reset when you load a different Scene?
-
-      <p>private
-      static int score;</p>'
-    answerA: Yes
-    answerB: No
-    answerC: Only when loading the Main Menu
+    questionId: 166
+    questionText: What is JSON and what is it useful for?
+    answerA: JavaScript Over Node, programming pattern
+    answerB: JavaScript Object Notation, data format
+    answerC: Jumping-Signal Over Nonce, crypto concept
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1743334317
+  lastQotdTimestamp: 1743504820
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/humbleBundleSyntyMar25Extended.png
     topText: Make ANY game with these awesome Assets! (97% OFF!)
     topLink: humblebundle
     bottomText: Learn Unity DOTS for MASSIVE Performance Boosts! (and make an RTS)
     bottomLink: dotscourse
-  lastDynamicHeaderTimestamp: 1743334317
+  lastDynamicHeaderTimestamp: 1743504820
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1743334317
+  websiteLatestMessageTimestamp: 1743504820
   websiteLatestVideos:
     videos:
     - youTubeId: BR1HFAj2v-Y
@@ -52,4 +49,4 @@ MonoBehaviour:
       title: EVERYTHING Steam did in 2024! (Devs NEED to Know)
     - youTubeId: QYrKiHq7Vaw
       title: TOP 10 NEW Systems and Tools MARCH 2025! | Unity Asset Store
-  websiteLatestVideosTimestamp: 1743334317
+  websiteLatestVideosTimestamp: 1743504820
