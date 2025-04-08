@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.00
   subtype: kitchenchaos
-  lastShownTimestamp: 1743988518
+  lastShownTimestamp: 1744075282
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1743988518
+  checkedLastUpdateTimestamp: 1744075282
   lastQOTDResponse:
     questionId: 168
     questionText: 'What are the minimum requirements (array size) to draw a Mesh
@@ -37,26 +37,26 @@ MonoBehaviour:
     answerC: 6 vertices, 3 uvs, 4 triangles
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1743988518
+  lastQotdTimestamp: 1744075282
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/humbleBundleEnvironmentsApr25.png
     topText: Gorgeous Realistic and Stylized Environments at 99% OFF!
     topLink: humblebundle
     bottomText: Learn Unity DOTS for MASSIVE Performance Boosts! (and make an RTS)
     bottomLink: dotscourse
-  lastDynamicHeaderTimestamp: 1743988518
+  lastDynamicHeaderTimestamp: 1744075282
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1743988518
+  websiteLatestMessageTimestamp: 1744075282
   websiteLatestVideos:
     videos:
+    - youTubeId: zgJHRiounHs
+      title: The Problem of Making more MONEY with Assets than Games
     - youTubeId: wejUWjCVW94
       title: The 10 BEST Game Dev Beginner Projects to Make!
     - youTubeId: 79an2JDe51g
       title: NO MORE PROGRAMMING, let's do Pen Spinning instead!
     - youTubeId: BR1HFAj2v-Y
       title: This GAME made $28 MILLION! Why?
-    - youTubeId: SJClo9ny1kM
-      title: TOP 20 Visual Assets to INSPIRE YOU! (MARCH 2025)
-  websiteLatestVideosTimestamp: 1743988518
+  websiteLatestVideosTimestamp: 1744075282
