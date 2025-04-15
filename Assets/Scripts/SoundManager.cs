@@ -1,10 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class SoundManager : MonoBehaviour
 {
+    public static SoundManager Instance { get; private set; } // Singleton instance
     [SerializeField] private AudioClipRefsSO audioClipRefsSO;
+
+    private void Awake()
+    {
+        Instance = this; // Set the singleton instance
+    }
     private void Start()
     {
         DeliveryManager.Instance.OnRecipeSuccess += DeliveryManager_OnRecipeSuccess;
@@ -58,5 +65,10 @@ public class SoundManager : MonoBehaviour
     private void PlaySound(AudioClip audioClip, Vector3 position, float volume = 1f)
     {
         AudioSource.PlayClipAtPoint(audioClip, position, volume);
+    }
+
+    public void PlayFootstepSound(Vector3 position, float volume)
+    {
+        PlaySound(audioClipRefsSO.footstep, position, volume);
     }
 }
