@@ -14,22 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.00
   subtype: kitchenchaos
-  lastShownTimestamp: 1744712520
+  lastShownTimestamp: 1744851872
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1744712520
+  checkedLastUpdateTimestamp: 1744851872
   lastQOTDResponse:
-    questionId: 170
+    questionId: 171
     questionText: 'Is this valid code?
 
-      <p>Color? myColor = null;</p>'
+      <p>string state = (health &gt; 0) ?
+      "ALIVE" : "DEAD";</p>'
     answerA: Yes
-    answerB: No, myColor is a struct and cannot be null
+    answerB: No
     answerC: 
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1744712520
+  lastQotdTimestamp: 1744851872
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/humbleApr25GUI.png
     topText: Awesome Giant UI pack! Definitely get it to get a giant library of UI
@@ -37,11 +38,11 @@ MonoBehaviour:
     topLink: humblebundle
     bottomText: Learn Unity DOTS for MASSIVE Performance Boosts! (and make an RTS)
     bottomLink: dotscourse
-  lastDynamicHeaderTimestamp: 1744712520
+  lastDynamicHeaderTimestamp: 1744851872
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1744712520
+  websiteLatestMessageTimestamp: 1744851872
   websiteLatestVideos:
     videos:
     - youTubeId: TZtbhCoff9Y
@@ -52,4 +53,4 @@ MonoBehaviour:
       title: The Problem of Making more MONEY with Assets than Games
     - youTubeId: wejUWjCVW94
       title: The 10 BEST Game Dev Beginner Projects to Make!
-  websiteLatestVideosTimestamp: 1744712520
+  websiteLatestVideosTimestamp: 1744851872

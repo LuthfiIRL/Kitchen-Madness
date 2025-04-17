@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager Instance { get; private set; } // singleton instance of GameManager    
+    public static GameManager Instance { get; private set; } // singleton instance of GameManager   
+
+    public event EventHandler OnStateChanged; // event to notify when the game state changes
     private enum State
     {
         WaitingToStart,
@@ -33,6 +36,7 @@ public class GameManager : MonoBehaviour
                 if (waitingToStartTimer < 0f)
                 {
                     state = State.CountdownToStart; // transition to CountdownToStart state
+                    OnStateChanged?.Invoke(this, EventArgs.Empty); // notify subscribers of state change
                 }
                 break;
             case State.CountdownToStart:
@@ -40,6 +44,7 @@ public class GameManager : MonoBehaviour
                 if (countdownToStartTimer < 0f)
                 {
                     state = State.GamePlaying; // transition to GamePlaying state 
+                    OnStateChanged?.Invoke(this, EventArgs.Empty); // notify subscribers of state change
                 }
                 break;
             case State.GamePlaying:
@@ -47,6 +52,7 @@ public class GameManager : MonoBehaviour
                 if (gamePlayingTimer < 0f)
                 {
                     state = State.GameOver; 
+                    OnStateChanged?.Invoke(this, EventArgs.Empty); // notify subscribers of state change
                 }
                 break;
             case State.GameOver:
@@ -58,5 +64,15 @@ public class GameManager : MonoBehaviour
     public bool IsGamePlaying()
     {
         return state == State.GamePlaying; // check if the game is currently playing
+    }
+
+    public bool IsCountdownToStartActive()
+    {
+        return state == State.CountdownToStart; // check if the countdown to start is active
+    }
+
+    public float GetCountdownToStartTimer()
+    {
+        return countdownToStartTimer; // get the remaining time for the countdown to start
     }
 }
