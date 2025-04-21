@@ -1833,6 +1833,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 830634ff5c4671d46964d8fc7e214bb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  recipesDeliveredText: {fileID: 1504117703}
 --- !u!1001 &516559631
 PrefabInstance:
   m_ObjectHideFlags: 0
