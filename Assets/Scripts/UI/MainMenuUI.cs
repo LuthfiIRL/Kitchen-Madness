@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MainMenuUI : MonoBehaviour
@@ -11,7 +12,11 @@ public class MainMenuUI : MonoBehaviour
     private void Awake()
     {
         playButton.onClick.AddListener(() => {
-            //Click
+            SceneManager.LoadScene(1);
+        });
+
+        quitButton.onClick.AddListener(() => {
+            Application.Quit();
         });
     }
     
