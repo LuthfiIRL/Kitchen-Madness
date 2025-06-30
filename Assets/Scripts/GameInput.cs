@@ -6,12 +6,14 @@ using System;
 
 public class GameInput : MonoBehaviour
 {
+    public static GameInput Instance { get; private set; }
     public event EventHandler OnInteractAction;
     public event EventHandler OnInteractAlternateAction;
     public event EventHandler OnPauseAction;
     private PlayerInputActions playerInputActions;
     private void Awake()
     {
+        Instance = this;
         playerInputActions = new PlayerInputActions();
         playerInputActions.Player.Enable();
 

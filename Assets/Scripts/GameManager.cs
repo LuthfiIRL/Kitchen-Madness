@@ -28,6 +28,16 @@ public class GameManager : MonoBehaviour
         state = State.WaitingToStart; // initialize state to WaitingToStart        
     }
 
+    private void Start()
+    {
+        GameInput.Instance.OnPauseAction += GameInput_OnPauseAction; // subscribe to pause action event
+    }
+
+    private void GameInput_OnPauseAction(object sender, EventArgs e)
+    {
+        
+    }
+
     private void Update()
     {
         switch (state)
@@ -53,7 +63,7 @@ public class GameManager : MonoBehaviour
                 gamePlayingTimer -= Time.deltaTime;
                 if (gamePlayingTimer < 0f)
                 {
-                    state = State.GameOver; 
+                    state = State.GameOver;
                     OnStateChanged?.Invoke(this, EventArgs.Empty); // notify subscribers of state change
                 }
                 break;
