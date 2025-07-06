@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
     private float countdownToStartTimer = 3f;
     private float gamePlayingTimer;
     private float gamePlayingTimerMax = 10f;
+    private bool isGamePaused = false; // flag to check if the game is paused
 
     private void Awake()
     {
@@ -35,7 +36,7 @@ public class GameManager : MonoBehaviour
 
     private void GameInput_OnPauseAction(object sender, EventArgs e)
     {
-        
+        TogglePauseGame();
     }
 
     private void Update()
@@ -96,5 +97,18 @@ public class GameManager : MonoBehaviour
     public float GetGamePlayingTimerNormalized()
     {
         return 1 - (gamePlayingTimer / gamePlayingTimerMax); // get the normalized game playing timer
+    }
+
+    private void TogglePauseGame()
+    {
+        isGamePaused = !isGamePaused; // toggle the pause state
+        if (isGamePaused)
+        {
+            Time.timeScale = 0f; // pause the game by setting time scale to 0
+        }
+        else
+        {
+            Time.timeScale = 1f; // resume the game by setting time scale to 1
+        }       
     }
 }

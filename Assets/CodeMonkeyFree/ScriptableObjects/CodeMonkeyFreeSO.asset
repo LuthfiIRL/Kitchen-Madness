@@ -14,45 +14,55 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.00
   subtype: kitchenchaos
-  lastShownTimestamp: 1751006091
+  lastShownTimestamp: 1751796948
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1751006092
+  checkedLastUpdateTimestamp: 1751796948
   lastQOTDResponse:
-    questionId: 195
-    questionText: 'Does this code have an error?
+    questionId: 198
+    questionText: 'What is the possible error in this code:
 
-      <p>int myNewX = 10;</p>
+      <p>tickTimer +=
+      Time.deltaTime;</p>
 
-      <p>transform.position.x
-      = myNewX;</p>'
-    answerA: Yes
-    answerB: No
-    answerC: Only if GameObject does not have a Transform component
+      <p>if (tickTimer &gt;= TICK_TIMER_MAX) {</p>
+
+      <p>&nbsp;
+      &nbsp; tickTimer -= TICK_TIMER_MAX;</p>
+
+      <p>&nbsp; &nbsp; tick++;</p>
+
+      <p>&nbsp;
+      &nbsp; OnTickEvent(this, EventArgs.Empty);</p>
+
+      <p>}</p>'
+    answerA: None
+    answerB: NullReferenceException
+    answerC: 2 ticks at once
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1751006092
+  lastQotdTimestamp: 1751796948
   lastDynamicHeaderResponse:
-    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/humbleJun25MegaMix.png
-    topText: AWESOME NEW Unity Bundle with Tools and Assets 97% OFF!
-    topLink: humblebundle
-    bottomText: My 10+ Years of C# Knowledge in 1 Course!
-    bottomLink: csharpcourse
-  lastDynamicHeaderTimestamp: 1751006092
+    topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/cSharpCourseNewBeginnerProjects.png
+    topText: I just updated my C# course with 10 FUN Beginner Projects! Learn by
+      DOING!
+    topLink: csharpcourse
+    bottomText: AWESOME NEW Unity Bundle with Tools and Assets 97% OFF!
+    bottomLink: humblebundle
+  lastDynamicHeaderTimestamp: 1751796948
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1751006092
+  websiteLatestMessageTimestamp: 1751796948
   websiteLatestVideos:
     videos:
-    - youTubeId: du6S-egCx1s
-      title: Getting Started with Unity AI (Assistant, Generators, Developer Data
-        Framework)
-    - youTubeId: tFU4cO_m5Xo
-      title: TOP 10 NEW Games, Made with Unity! (MAY 2025)
-    - youTubeId: iN3Q0RBiWk8
-      title: What do the BEST Programmers do differently?
-    - youTubeId: Nv-pG1v_TaM
-      title: TOP 10 NEW Systems and Tools JUNE 2025! | Unity Asset Store
-  websiteLatestVideosTimestamp: 1751006092
+    - youTubeId: mdjap-NtkWs
+      title: TOP 10 NEW Games, Made with Unity! (JUNE 2025)
+    - youTubeId: Lj_CgExP3AA
+      title: You Game ANCHOR is super important! Do you know it?
+    - youTubeId: K0di3MEm70U
+      title: Learn C# Making Beginner Projects! (FizzBuzz, Hangman - SOON!)
+    - youTubeId: 6WUJ3z9EGnI
+      title: TOP 20 Visual Assets to INSPIRE YOU! (JUNE 2025)
+  websiteLatestVideosTimestamp: 1751796948
