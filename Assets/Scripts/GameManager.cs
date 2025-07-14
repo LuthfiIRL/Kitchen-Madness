@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance { get; private set; } // singleton instance of GameManager   
 
     public event EventHandler OnStateChanged; // event to notify when the game state changes
+    public event EventHandler OnGamePaused; // event to notify when the game is paused
+    public event EventHandler OnGameUnpaused; // event to notify when the game is unpaused
     private enum State
     {
         WaitingToStart,
@@ -105,10 +107,12 @@ public class GameManager : MonoBehaviour
         if (isGamePaused)
         {
             Time.timeScale = 0f; // pause the game by setting time scale to 0
+            OnGamePaused?.Invoke(this, EventArgs.Empty); // notify subscribers that the game is paused
         }
         else
         {
             Time.timeScale = 1f; // resume the game by setting time scale to 1
+            OnGameUnpaused?.Invoke(this, EventArgs.Empty); // notify subscribers that the game is unpaused
         }       
     }
 }

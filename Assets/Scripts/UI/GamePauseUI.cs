@@ -1,0 +1,33 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class GamePauseUI : MonoBehaviour
+{
+    private void Start()
+    {
+        GameManager.Instance.OnGamePaused += Gamemanager_OnGamePaused;
+        GameManager.Instance.OnGameUnpaused += Gamemanager_OnGameUnpaused;
+
+        Hide(); // Initially hide the pause UI
+    }
+
+    private void Gamemanager_OnGamePaused(object sender, System.EventArgs e)
+    {
+        Show(); 
+    }
+
+    private void Gamemanager_OnGameUnpaused(object sender, System.EventArgs e)
+    {
+        Hide(); 
+    }
+    private void Show()
+    {
+        gameObject.SetActive(true); // Show the pause UI
+    }
+
+    private void Hide()
+    {
+        gameObject.SetActive(false); // Hide the pause UI
+    }
+}
