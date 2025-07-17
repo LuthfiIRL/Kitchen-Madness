@@ -101,7 +101,7 @@ public class GameManager : MonoBehaviour
         return 1 - (gamePlayingTimer / gamePlayingTimerMax); // get the normalized game playing timer
     }
 
-    private void TogglePauseGame()
+    public void TogglePauseGame()
     {
         isGamePaused = !isGamePaused; // toggle the pause state
         if (isGamePaused)
