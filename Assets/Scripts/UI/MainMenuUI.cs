@@ -11,13 +11,17 @@ public class MainMenuUI : MonoBehaviour
 
     private void Awake()
     {
-        playButton.onClick.AddListener(() => {
+        playButton.onClick.AddListener(() =>
+        {
             Loader.Load(Loader.Scene.GameScene);
         });
 
-        quitButton.onClick.AddListener(() => {
+        quitButton.onClick.AddListener(() =>
+        {
             Application.Quit();
         });
+
+        Time.timeScale = 1f; // Ensure time scale is reset when entering the main menu
     }
     
 }
