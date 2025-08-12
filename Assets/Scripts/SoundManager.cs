@@ -82,4 +82,9 @@ public class SoundManager : MonoBehaviour
             volume = 0f;
         }
     }
+
+    public float GetVolume()
+    {
+        return volume;
+    }
 }
