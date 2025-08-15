@@ -22,7 +22,8 @@ public class OptionsUI : MonoBehaviour
 
         musicButton.onClick.AddListener(() =>
         {
-
+            MusicManager.Instance.ChangeVolume();
+            UpdateVisual();
         });
     }
 
@@ -34,5 +35,6 @@ public class OptionsUI : MonoBehaviour
     private void UpdateVisual()
     {
         soundEffectsText.text = "Sound Effects: " + Mathf.Round(SoundManager.Instance.GetVolume() * 10f);
+        musicText.text = "Music: " + Mathf.Round(MusicManager.Instance.GetVolume() * 10f);
     }
 }
