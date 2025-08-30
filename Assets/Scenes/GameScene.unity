@@ -2337,7 +2337,7 @@ GameObject:
   - component: {fileID: 611341203}
   - component: {fileID: 611341202}
   m_Layer: 5
-  m_Name: MoveUpText (6)
+  m_Name: PauseText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2359,7 +2359,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -199.8, y: -382}
+  m_AnchoredPosition: {x: -199.8, y: -374}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &611341202
@@ -2382,7 +2382,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Move Up
+  m_text: 'Pause
 
 '
   m_isRightToLeft: 0
@@ -3951,7 +3951,7 @@ GameObject:
   - component: {fileID: 1164507002}
   - component: {fileID: 1164507001}
   m_Layer: 5
-  m_Name: MoveUpText (5)
+  m_Name: InteractAlternateText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3973,7 +3973,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -199.8, y: -342}
+  m_AnchoredPosition: {x: -199.8, y: -336}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1164507001
@@ -3996,9 +3996,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Move Up
-
-'
+  m_text: Interact Alternate
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4507,7 +4505,7 @@ GameObject:
   - component: {fileID: 1305417727}
   - component: {fileID: 1305417726}
   m_Layer: 5
-  m_Name: MoveUpText (4)
+  m_Name: InteractText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4529,7 +4527,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -199.8, y: -306}
+  m_AnchoredPosition: {x: -199.8, y: -300}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1305417726
@@ -4552,9 +4550,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Move Up
-
-'
+  m_text: Interact
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5387,7 +5383,7 @@ GameObject:
   - component: {fileID: 1549629061}
   - component: {fileID: 1549629060}
   m_Layer: 5
-  m_Name: MoveUpText (1)
+  m_Name: MoveDownText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5432,7 +5428,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Move Up
+  m_text: 'Move Down
 
 '
   m_isRightToLeft: 0
@@ -5591,7 +5587,7 @@ GameObject:
   - component: {fileID: 1577906558}
   - component: {fileID: 1577906557}
   m_Layer: 5
-  m_Name: MoveUpText (2)
+  m_Name: MoveLeftText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5636,7 +5632,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Move Up
+  m_text: 'Move Left
 
 '
   m_isRightToLeft: 0
@@ -7898,7 +7894,7 @@ GameObject:
   - component: {fileID: 2017902899}
   - component: {fileID: 2017902898}
   m_Layer: 5
-  m_Name: MoveUpText (3)
+  m_Name: MoveRightText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7943,7 +7939,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Move Up
+  m_text: 'Move Right
 
 '
   m_isRightToLeft: 0
