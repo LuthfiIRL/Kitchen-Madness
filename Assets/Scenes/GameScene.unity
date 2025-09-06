@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 25572917}
   - component: {fileID: 25572916}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: MoveRightButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2922,7 +2922,7 @@ GameObject:
   - component: {fileID: 769044254}
   - component: {fileID: 769044253}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: InteractAlternateButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3746,7 +3746,7 @@ GameObject:
   - component: {fileID: 1008242312}
   - component: {fileID: 1008242311}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: InteractButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4012,15 +4012,22 @@ MonoBehaviour:
   soundEffectsButton: {fileID: 1134077685}
   musicButton: {fileID: 548051962}
   closeButton: {fileID: 1137314263}
+  moveUpButton: {fileID: 1795020446}
+  moveDownButton: {fileID: 1703183703}
+  moveLeftButton: {fileID: 1775228480}
+  moveRightButton: {fileID: 253131981}
+  interactButton: {fileID: 431025258}
+  interactAlternateButton: {fileID: 2080287759}
+  pauseButton: {fileID: 1800001672}
   soundEffectsText: {fileID: 562781927}
   musicText: {fileID: 2102940187}
-  moveUpText: {fileID: 0}
-  moveDownText: {fileID: 0}
-  moveLeftText: {fileID: 0}
-  moveRightText: {fileID: 0}
-  interactText: {fileID: 0}
-  interactAlternateText: {fileID: 0}
-  pauseText: {fileID: 0}
+  moveUpText: {fileID: 1671966592}
+  moveDownText: {fileID: 1497914005}
+  moveLeftText: {fileID: 2005051148}
+  moveRightText: {fileID: 25572916}
+  interactText: {fileID: 1008242311}
+  interactAlternateText: {fileID: 769044253}
+  pauseText: {fileID: 1963345133}
 --- !u!1001 &1075615827
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5909,7 +5916,7 @@ GameObject:
   - component: {fileID: 1497914006}
   - component: {fileID: 1497914005}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: MoveDownButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6847,7 +6854,7 @@ GameObject:
   - component: {fileID: 1671966593}
   - component: {fileID: 1671966592}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: MoveUpButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7557,7 +7564,7 @@ GameObject:
   - component: {fileID: 1751969477}
   - component: {fileID: 1751969476}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: CloseButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8974,7 +8981,7 @@ GameObject:
   - component: {fileID: 1963345134}
   - component: {fileID: 1963345133}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: PauseButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9229,7 +9236,7 @@ GameObject:
   - component: {fileID: 2005051149}
   - component: {fileID: 2005051148}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: MoveLeftButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10033,7 +10040,7 @@ GameObject:
   - component: {fileID: 2102940188}
   - component: {fileID: 2102940187}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: MusicButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
