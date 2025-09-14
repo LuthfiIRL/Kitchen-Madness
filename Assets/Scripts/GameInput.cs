@@ -32,7 +32,7 @@ public class GameInput : MonoBehaviour
         playerInputActions.Player.InteractAlternate.performed += InteractAlternate_performed;
         playerInputActions.Player.Pause.performed += Pause_performed;
 
-        Debug.Log(GetBindingText(Binding.Interact));
+        Debug.Log(GetBindingText(Binding.Move_Up));
     }
 
     private void OnDestroy()
@@ -70,8 +70,14 @@ public class GameInput : MonoBehaviour
         switch (binding)
         {
             default:
+            case Binding.Move_Up:
+                return playerInputActions.Player.Move.bindings[0].ToString();
             case Binding.Interact:
-                return playerInputActions.Player.Interact.bindings[0].ToString();
+                return playerInputActions.Player.Interact.bindings[0].ToDisplayString();
+            case Binding.InteractAlternate:
+                return playerInputActions.Player.InteractAlternate.bindings[0].ToDisplayString();
+            case Binding.Pause:
+                return playerInputActions.Player.Pause.bindings[0].ToDisplayString();
                 
         }
     }
