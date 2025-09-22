@@ -47,6 +47,11 @@ public class OptionsUI : MonoBehaviour
         {
             Hide();
         });
+
+        moveUpButton.onClick.AddListener(() =>
+        {
+            GameInput.Instance.RebindBinding(GameInput.Binding.Move_Up);
+        });
     }
 
     private void Start()

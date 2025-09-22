@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 using System;
+using UnityEngine.InputSystem;
 
 public class GameInput : MonoBehaviour
 {
@@ -30,7 +31,7 @@ public class GameInput : MonoBehaviour
 
         playerInputActions.Player.Interact.performed += Interact_performed;
         playerInputActions.Player.InteractAlternate.performed += InteractAlternate_performed;
-        playerInputActions.Player.Pause.performed += Pause_performed;        
+        playerInputActions.Player.Pause.performed += Pause_performed;
     }
 
     private void OnDestroy()
@@ -84,6 +85,21 @@ public class GameInput : MonoBehaviour
                 return playerInputActions.Player.Pause.bindings[0].ToDisplayString();
 
         }
+    }
+
+    public void RebindBinding(Binding binding)
+    {
+        playerInputActions.Player.Disable();
+
+        playerInputActions.Player.Move.PerformInteractiveRebinding(1)
+            .OnComplete(callback =>
+            {
+                Debug.Log(callback.action.bindings[1].path);
+                Debug.Log(callback.action.bindings[1].overridePath);
+                callback.Dispose();
+                playerInputActions.Player.Enable();
+            })
+            .Start();
     }
     
 }
