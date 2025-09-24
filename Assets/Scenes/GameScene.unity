@@ -3424,7 +3424,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &861125201
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4200,6 +4200,7 @@ MonoBehaviour:
   interactText: {fileID: 1008242311}
   interactAlternateText: {fileID: 769044253}
   pauseText: {fileID: 1963345133}
+  pressToRebindKeyTransform: {fileID: 861125201}
 --- !u!1001 &1075615827
 PrefabInstance:
   m_ObjectHideFlags: 0
