@@ -629,7 +629,7 @@ GameObject:
   - component: {fileID: 104503781}
   - component: {fileID: 104503780}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: KeyGamepadInteractText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1592,7 +1592,7 @@ GameObject:
   - component: {fileID: 263878831}
   - component: {fileID: 263878830}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: KeyGamepadMoveText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2496,7 +2496,7 @@ GameObject:
   - component: {fileID: 371284820}
   - component: {fileID: 371284819}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: KeyGamepadPauseText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2628,7 +2628,7 @@ GameObject:
   m_Component:
   - component: {fileID: 381018063}
   m_Layer: 5
-  m_Name: Key
+  m_Name: KeyMoveUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2652,7 +2652,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 313.1, y: -129.3}
+  m_AnchoredPosition: {x: 353.1, y: -129.3}
   m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &384543990
@@ -3787,7 +3787,7 @@ GameObject:
   - component: {fileID: 577333753}
   - component: {fileID: 577333752}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: KeyMoveUpText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4340,7 +4340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 672872910}
   m_Layer: 5
-  m_Name: Key (1)
+  m_Name: KeyMoveDown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4364,7 +4364,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 267.6, y: -129.3}
+  m_AnchoredPosition: {x: 307.6, y: -129.3}
   m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &703684972
@@ -4952,7 +4952,7 @@ GameObject:
   m_Component:
   - component: {fileID: 813495523}
   m_Layer: 5
-  m_Name: Key (3)
+  m_Name: KeyMoveRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4976,7 +4976,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 177.2, y: -129.3}
+  m_AnchoredPosition: {x: 217.2, y: -129.3}
   m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &832575517
@@ -5040,7 +5040,7 @@ GameObject:
   - component: {fileID: 833080270}
   - component: {fileID: 833080269}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: KeyPauseText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6185,7 +6185,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1041508959}
   m_Layer: 5
-  m_Name: Key (2)
+  m_Name: KeyMoveLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6209,7 +6209,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 221.8, y: -129.3}
+  m_AnchoredPosition: {x: 261.8, y: -129.3}
   m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1075615827
@@ -7083,7 +7083,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1217405858}
   m_Layer: 5
-  m_Name: Key (4)
+  m_Name: KeyGamepadMove
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7176,7 +7176,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1266075829}
   m_Layer: 5
-  m_Name: Key (8)
+  m_Name: KeyGamepadInteract
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7713,7 +7713,7 @@ GameObject:
   - component: {fileID: 1314672364}
   - component: {fileID: 1314672363}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: KeyInteract
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8551,7 +8551,7 @@ GameObject:
   - component: {fileID: 1441973278}
   - component: {fileID: 1441973277}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: KeyGamepadAlternateInteractText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9425,7 +9425,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1558919316}
   m_Layer: 5
-  m_Name: Key (6)
+  m_Name: KeyAlternateInteract
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9449,7 +9449,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 313.1, y: -232.5}
+  m_AnchoredPosition: {x: 287.19998, y: -232.5}
   m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1565740556
@@ -9772,7 +9772,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1612582312}
   m_Layer: 5
-  m_Name: Key (7)
+  m_Name: KeyPause
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9796,7 +9796,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 313.1, y: -276.8}
+  m_AnchoredPosition: {x: 287.2, y: -276.8}
   m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1615024973
@@ -9953,7 +9953,7 @@ GameObject:
   - component: {fileID: 1621492042}
   - component: {fileID: 1621492041}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: KeyAlternateInteractText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11118,7 +11118,7 @@ GameObject:
   - component: {fileID: 1771569821}
   - component: {fileID: 1771569820}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: KeyMoveDownText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12081,7 +12081,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1891977678}
   m_Layer: 5
-  m_Name: Key (10)
+  m_Name: KeyGamepadAlternateInteract
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12996,7 +12996,7 @@ GameObject:
   - component: {fileID: 1968310389}
   - component: {fileID: 1968310388}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: KeyMoveRightText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13173,7 +13173,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1979192372}
   m_Layer: 5
-  m_Name: Key (9)
+  m_Name: KeyGamepadPause
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13827,7 +13827,7 @@ GameObject:
   - component: {fileID: 2033730666}
   - component: {fileID: 2033730665}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: KeyMoveLeftText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14027,7 +14027,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2058967114}
   m_Layer: 5
-  m_Name: Key (5)
+  m_Name: KeyInteract
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14051,7 +14051,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 313.1, y: -182.4}
+  m_AnchoredPosition: {x: 287.19998, y: -182.4}
   m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &2069135696
